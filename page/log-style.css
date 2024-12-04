@@ -1,0 +1,291 @@
+
+
+body {
+  margin:0;
+  color:#6a6f8c;
+  background:#c8c8c8;
+  font:600 16px/18px 'Open Sans',sans-serif;
+  background-color:  #000 !important;
+}
+.display-right{
+    margin-top: 90px;
+}
+.container {
+    display: flex;
+     height: 900px;
+     width: 100%;
+     background: linear-gradient(150deg, #000000, #000000, #000c18, #005683, #007dbc, #0083c4);     box-shadow: -4px -4px 52px -7px rgba(255,255,255,0.71);
+        -webkit-box-shadow: -4px -4px 52px -7px rgba(255,255,255,0.71);
+        -moz-box-shadow: -4px -4px 52px -7px rgba(255,255,255,0.71);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.login-wrap{
+    width: 500px;
+    padding: 20px;
+    margin: 150px 0 0 0;
+}
+.center {
+  text-align: center;
+}
+
+#MonValley #BrightDoor {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+#MonValley:hover #BrightDoor {
+  opacity: 1;
+}
+#MonValley #Step1 {
+  transition: all 0.65s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step1 {
+  transform: translate(0px, 0px);
+}
+
+#MonValley #Step2 {
+  transition: all 0.6s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step2 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step3 {
+  transition: all 0.55s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step3 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step4 {
+  transition: all 0.5s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step4 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step5 {
+  transition: all 0.45s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step5 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step6 {
+  transition: all 0.4s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step6 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step7 {
+  transition: all 0.35s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step7 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step8 {
+  transition: all 0.3s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step8 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step9 {
+  transition: all 0.25s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step9 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step10 {
+  transition: all 0.2s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step10 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step11 {
+  transition: all 0.15s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step11 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step12 {
+  transition: all 0.1s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step12 {
+  transform: translate(0px, 0px);
+}
+#MonValley #Step13 {
+  transition: all 0.05s ease-in-out;
+  transform: translate(0px, 150px);
+}
+#MonValley:hover #Step13 {
+  transform: translate(0px, 0px);
+}
+
+
+
+
+
+/* display Left */
+
+
+
+
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#FFFF;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#000;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.login-form .group .button{
+	background: #FFFF;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#FFFF;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+
+.login-wrap .text-align{
+	text-align: end;
+	display: block;
+
+
+}
+.login-wrap .text-align img{
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.login-wrap a{
+	text-decoration: none;
+}
