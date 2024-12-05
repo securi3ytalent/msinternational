@@ -1,56 +1,207 @@
 <html>
 
 <head>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="product-view.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/xzoom@1.0.14/dist/xzoom.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/xzoom@1.0.14/dist/xzoom.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/xzoom@1.0.14/dist/xzoom.css"
+        media="all" />
+            <!-- fontawesome CDN -->
+    <script src="https://kit.fontawesome.com/f90ace43a5.js" crossorigin="anonymous"></script>
+        <!-- Google Font Roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container-preview">
+        <div class="row preview-box1">
             <div class="col-md-5">
-                <img class="xzoom" src="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/01_b_car.jpg" style="width:400px;" xoriginal="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/01_b_car.jpg"
+                <img class="xzoom"
+                    src="img/1.jpg"
+                    style="width: 100%; max-width: 400px;"
+                    xoriginal="img/1.jpg"
                 />
 
                 <div class="xzoom-thumbs">
-                    <a href="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/01_b_car.jpg">
-                    <img class="xzoom-gallery" width="80" src="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/01_b_car.jpg" xpreview="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/01_b_car.jpg">
-                </a>
-                    <a href="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/02_o_car.jpg">
-                    <img class="xzoom-gallery" width="80" src="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/02_o_car.jpg">
-                </a>
-                    <a href="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/03_r_car.jpg">
-                    <img class="xzoom-gallery" width="80" src="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/03_r_car.jpg">
-                </a>
-                    <a href="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/04_g_car.jpg">
-                    <img class="xzoom-gallery" width="80" src="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/original/04_g_car.jpg">
-                </a>
+                    <a href="img/1.jpg"><img class="xzoom-gallery" width="80" src="img/1.jpg" xpreview="img/1.jpg" /></a>
+                    <a href="img/2.png"><img class="xzoom-gallery" width="80" src="img/2.png" /></a>
+                    <a href="img/3.png"><img class="xzoom-gallery" width="80" src="img/3.png" /></a>
+                    <a href="img/4.jpg"><img class="xzoom-gallery" width="80" src="img/4.jpg" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="preview-box2">
+            <div class="preview-container">
+                <div>
 
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Watch</a></li>
+                        <li><a href="#">CASIO</a></li>
+                      </ul>
+
+                    <h1> Best Casio analog watch for men MTP-V005D-2B5UDF in Maaz bangladesh</h1>
+                    <div class="price">
+                        <span class="currency-symbol">৳</span>
+                        <span class="amount">2,900.00</span>
+                    </div>
+                    
+                    <p>Casio Men’s Analog Watch MTP-V005D-2B5UDF Elevate your everyday style with the Casio MTP-V005D-2B5UDF analog watch for men, designed for both functionality and elegance. The watch features a classic design with a stainless steel band, offering durability and comfort for all-day wear. The mineral glass protects the dial, ensuring clarity and resistance to scratches, while the triple-fold clasp keeps the watch securely fastened.</p>
+                </div>
+
+                <div class="add-to-card-button">
+                    <div class="quantity">
+                        <input type="button" value="-" class="minus btn">
+                        <input type="number" id="quantity_6751405563f7b" class="input-text qty text wcmmq-qty-input-box" value="1" aria-label="Product quantity" min="1" max="" name="quantity" step="1" placeholder="" inputmode="numeric" autocomplete="off">
+                        <input type="button" value="+" class="plus btn">
+                    </div>
+                    <button type="submit" name="add-to-cart" value="28738" class="single_add_to_cart_button button alt">Add to cart</button>
+                </div>
+                <div class="icon-box">
+                    <a href="#"><i class="text-white fa-solid fa-code-compare" aria-hidden="true"></i>Compare</a>
+                    <a href="#"><i class="text-white fa-solid fa-heart" aria-hidden="true"></i>Add to wishlist</a>
+                </div>
+                <hr>
+                <h4>SKU: <span>MTP-V005D-2B5UDF </span></h4>
+                <h4>Categories: <span>CASIO, Men's watch, Men’s watch, Watch</span></h4>
+                <div class="Share">
+                    <h4>Share</h4>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
                 </div>
             </div>
         </div>
     </div>
+    <!-- discription area -->
+    <hr>
+        <div class="discription-area">
+                
+            <div class="tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" onclick="openTab(event, 'tab1')">Tab 1</button>
+                    <button class="tab-button" onclick="openTab(event, 'tab2')">Tab 2</button>
+                    <button class="tab-button" onclick="openTab(event, 'tab3')">Tab 3</button>
+                </div>
+            
+                <div class="tab-content">
+                    <div id="tab1" class="tab-pane active">
+                        <h3>Content for Tab 1</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio, consectetur quam distinctio labore atque amet sequi. Eaque nostrum, tempore sed sunt illum vel ex modi nisi, mollitia earum, ipsam officiis. In reprehenderit voluptates impedit consectetur quae non totam aut deleniti ratione excepturi neque aperiam nemo delectus expedita architecto dolorem ad molestias itaque sit id, earum officiis natus sapiente. Commodi quidem voluptate perferendis et delectus molestiae non pariatur modi fuga, esse mollitia maiores ab expedita ratione odio in cum laborum eius voluptates ea? Debitis modi voluptates provident maiores molestias, iure ab temporibus expedita doloribus aliquid voluptas eum! Hic officia a sed, ducimus rerum laboriosam sint sequi dolore, qui dolores porro atque error aut? Laboriosam, dolorem. Nam id autem molestiae asperiores iusto blanditiis, quas dolor laudantium maxime. Cupiditate illum omnis dolores enim sunt eum a maiores, architecto minus, est eius blanditiis odit nulla ratione aut qui laborum. Minus vitae ratione quaerat explicabo nam iste vel recusandae nostrum, sequi rerum nemo tempore est sapiente exercitationem dolorum. Et, harum quas expedita atque officia quidem. Dignissimos eveniet, numquam suscipit, dolore ullam ea similique nemo provident autem, veritatis in eum soluta. In molestias, iusto sed optio doloribus expedita maiores! Optio at qui dolores, maiores voluptatum iusto quos tenetur. Sequi possimus explicabo error est cupiditate quod minima corporis doloribus quia, similique, illum tempora quaerat, quibusdam maxime? Illo accusamus esse, temporibus odit totam itaque voluptatum, architecto asperiores in tempora unde ducimus dolore dolores numquam quos cumque ullam maxime provident vitae quam nesciunt! Veritatis mollitia id aliquid possimus, odio debitis. Aliquam quibusdam cum, quia ab explicabo labore quo illo iste, exercitationem consequatur sequi earum necessitatibus similique voluptates harum aspernatur iusto magni corporis non fugit vero dignissimos distinctio! Impedit ex debitis earum ipsa eius harum cupiditate rem velit vel. Architecto cum ex id quasi, ratione nihil. Velit facilis nihil mollitia aut autem odio veritatis nesciunt hic suscipit iste consectetur vero, fuga beatae quod, quam excepturi dolore ea a itaque vitae expedita? Ipsam consequatur eum commodi inventore earum, culpa deleniti maiores perspiciatis adipisci, qui sit error porro iusto cupiditate fuga voluptas libero necessitatibus quos? Velit, veritatis? Ipsa officia eum, delectus quisquam explicabo neque minima placeat molestiae. Quo nesciunt vero quidem, esse blanditiis hic dolor officia maiores, quisquam odio ducimus ipsa. Earum fugiat sed qui omnis, quas accusamus ut facere labore distinctio ipsa quae voluptate? Quo recusandae laborum, dolorem commodi nihil provident dolore quibusdam minus sed consequatur repudiandae praesentium aut tempore odit voluptas voluptatem quae quasi ipsum voluptatum laudantium fugit. Ea, aspernatur. Natus facilis eveniet eligendi maiores hic debitis eius sed laboriosam neque, temporibus porro laborum magni vitae quod eos accusantium. Porro ducimus voluptatem, omnis illo molestiae est laudantium quas consectetur itaque cupiditate saepe sapiente vero quo maxime earum laboriosam magni pariatur? Doloremque voluptates ea facilis beatae dicta! Exercitationem, esse repellendus ratione sequi rerum illo nesciunt, sapiente dolores est odio quas corporis aperiam quo voluptatibus quod? Quam laudantium, temporibus error alias sed, ab praesentium nulla repellendus fugiat, impedit necessitatibus harum doloribus dolorum expedita quia totam quis officia enim. Nisi nihil itaque, rem architecto quo nulla commodi repellat sed a provident. Deserunt molestiae, aliquam magnam labore, nesciunt odio architecto cumque cupiditate autem nulla totam inventore adipisci recusandae cum doloribus tempora consequatur ratione distinctio fugiat unde perspiciatis dolores. Minima molestias deserunt aliquam soluta nisi optio repellendus quia alias magnam architecto quis, corporis error cupiditate maiores, eveniet perferendis blanditiis quam quod reiciendis explicabo ea? Quod adipisci mollitia accusantium necessitatibus ut, quae omnis unde quo magnam a alias autem et maiores numquam repudiandae atque, nisi, explicabo aliquam sunt cupiditate culpa quisquam. Quibusdam nostrum officia laboriosam accusamus corporis, repellendus ratione nesciunt aliquam perferendis suscipit consequuntur repudiandae cumque modi quis rem quae quas ipsa obcaecati aut, at neque dolor necessitatibus omnis! Amet quam cupiditate, distinctio velit dolores incidunt similique molestiae delectus molestias, pariatur officia repellat fugit non, nostrum tempore. Quaerat labore recusandae voluptatibus aperiam sapiente ex rerum culpa asperiores doloremque! Dolore nesciunt officia, fugiat, expedita eum neque alias, nobis possimus eaque labore odio. Facilis labore deleniti molestiae hic vitae quisquam quaerat earum incidunt, id aliquid laborum voluptatem perferendis, corrupti eveniet enim nihil modi dolore quae laudantium blanditiis minima. Asperiores culpa voluptatibus vel, suscipit modi eum, corporis hic, sequi laboriosam quisquam consectetur. Accusantium molestias quibusdam unde eveniet at sapiente, cupiditate ea dolore. Architecto tenetur, dignissimos soluta tempora laborum ut magni nam culpa animi, odit nostrum id. Natus nesciunt aliquid eaque, quo odit ea accusantium nemo assumenda placeat deserunt enim laborum voluptatem, adipisci deleniti iusto atque? Obcaecati accusamus incidunt nostrum assumenda repellendus ratione omnis! Tempore, sit illo. Repudiandae, sint. Saepe odit quod, corporis mollitia repudiandae veritatis molestias fugiat, fuga beatae, eligendi cumque nulla a sequi ullam adipisci vel dolore nemo. Officiis sint libero in aperiam quae iure at ipsa inventore quod, laborum corrupti deserunt assumenda! Vel odio rerum laboriosam eaque, at, architecto voluptatibus illum pariatur natus, voluptatum inventore ipsam minus voluptatem? Ex minus culpa, pariatur dignissimos fugiat voluptas odio ipsa ab, vero deleniti id veniam. Ducimus repudiandae cupiditate vitae ipsum? Rerum consequuntur, voluptate reprehenderit asperiores delectus natus, accusamus ex tenetur ipsam animi facere aut. Minus illo perspiciatis ea impedit, necessitatibus nihil! Odit aliquid explicabo impedit dolorum dolores alias omnis ad et earum inventore magnam aliquam quo corrupti, doloremque a deserunt eaque vero reiciendis maxime. Expedita earum voluptatem dolorum ducimus numquam, reiciendis nobis officiis in? Provident suscipit voluptatibus, totam nihil omnis corporis voluptatum aliquam dignissimos nostrum, nobis rem nesciunt ut deserunt temporibus fuga facilis laborum quasi neque vitae! Molestias enim obcaecati, maiores ut, porro qui accusamus sequi provident laborum distinctio hic doloribus placeat exercitationem? Consectetur obcaecati quaerat vitae minima odio dolor voluptatem facilis enim hic, sapiente cum velit. Consequuntur incidunt voluptas minus, tenetur ullam nemo praesentium sit aut cumque harum, excepturi architecto culpa odit adipisci minima laudantium veritatis, quod esse autem magnam obcaecati et reprehenderit aliquid. Consequuntur, fugiat deserunt. Obcaecati rem, ipsam veritatis, deserunt laboriosam corporis, eum repellat eveniet amet vitae molestias adipisci. Id quibusdam nam dolor suscipit asperiores deserunt, natus eum, expedita aliquid, vitae minima. Autem enim eligendi, omnis totam nam obcaecati, asperiores neque, alias unde delectus fuga?</p>
+                    </div>
+                    <div id="tab2" class="tab-pane">
+                        <h3>Content for Tab 2</h3>
+                        <p>This is some content for the second tab.</p>
+                    </div>
+                    <div id="tab3" class="tab-pane">
+                        <h3>Content for Tab 3</h3>
+                        <p>This is some content for the third tab.</p>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+     
 
 
     <script>
+        (function ($) {
+            $(document).ready(function () {
+                $(".xzoom, .xzoom-gallery").xzoom({
+                    zoomWidth: 400,
+                    title: true,
+                    tint: "#333",
+                    Xoffset: 15,
+                    fadeIn: true,
+                });
+            });
+        })(jQuery);
 
-(function ($) {
-    $(document).ready(function() {
-        $('.xzoom, .xzoom-gallery').xzoom({
-            zoomWidth: 400, title: true, tint: '#333', Xoffset: 15
-        });
-              
-       
+
+            document.addEventListener("DOMContentLoaded", function () {
+            const minusButton = document.querySelector('.minus');
+            const plusButton = document.querySelector('.plus');
+            const quantityInput = document.querySelector('.input-text');
+
+            // Decrease quantity
+            minusButton.addEventListener('click', function () {
+                let currentQuantity = parseInt(quantityInput.value);
+                if (currentQuantity > 1) {
+                    quantityInput.value = currentQuantity - 1;
+                }
+            });
+
+            // Increase quantity
+            plusButton.addEventListener('click', function () {
+                    let currentQuantity = parseInt(quantityInput.value);
+                    quantityInput.value = currentQuantity + 1;
+                });
+            });
+
+
+
+
+
+
+
+
+
+
+            // Function to open a tab and show its content
+function openTab(event, tabId) {
+    // Get all tab buttons and remove the active class
+    let tabButtons = document.querySelectorAll('.tab-button');
+    tabButtons.forEach(button => {
+        button.classList.remove('active');
     });
-})(jQuery);
+
+    // Add active class to the clicked button
+    event.currentTarget.classList.add('active');
+
+    // Get all tab content and hide them
+    let tabPanes = document.querySelectorAll('.tab-pane');
+    tabPanes.forEach(pane => {
+        pane.classList.remove('active');
+    });
+
+    // Show the content of the clicked tab
+    document.getElementById(tabId).classList.add('active');
+}
+
+// Initialize the first tab as active by default
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('.tab-button.active').click();
+});
+
+
+
+
+
+
+
 
 
 
 
     </script>
-
 </body>
 
 </html>
