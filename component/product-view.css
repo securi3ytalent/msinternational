@@ -16,10 +16,12 @@
 	margin-bottom: 10px;
   margin-top: 10px;
 }
-.preview-box2 p{
-  font-weight: 500;
-  font-size: 18px;
+.preview-box2 p {
+	font-weight: 500;
+	font-size: 18px;
+	opacity: 80%;
 }
+
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
@@ -68,7 +70,66 @@ ul.breadcrumb li a:hover {
 }
 .Share{
   display: flex;
+  align-items: center;
+  align-items: center;
 }
+.Share h4{
+  font-size: 20px;
+  padding-right: 22px;
+}
+.Share a{
+  padding: 0 10px;
+  font-size: 20px;
+}
+.Share a i{
+  color: #003161;
+}
+#hr1,
+#hr2{
+  border: 1px solid #000000;
+  opacity: 10%;
+}
+
+/* A Fancy Table */
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+/* Product Easy & Responsive jQuery Carousel Slider */
+
+
+.container-slider{
+
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding-top: 50px;
+}
+#demo a img{
+  width: 60%;
+}
+
+
+
 
 /* Basic styling for quantity section */
 .quantity {
