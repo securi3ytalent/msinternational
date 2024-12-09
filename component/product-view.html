@@ -1,324 +1,445 @@
 <html>
+  <head>
+    <link rel="stylesheet" href="product-view.css" />
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/xzoom@1.0.14/dist/xzoom.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/xzoom@1.0.14/dist/xzoom.css"
+      media="all"
+    />
 
-<head>
-    <link rel="stylesheet" href="product-view.css">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/xzoom@1.0.14/dist/xzoom.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/xzoom@1.0.14/dist/xzoom.css"
-        media="all" />
+    <!-- Easy & Responsive jQuery Carousel Slider  -->
+    <script src="js/jquery.film_roll.min.js"></script>
+    <!-- fontawesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/f90ace43a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
 
-        <!-- Easy & Responsive jQuery Carousel Slider  -->
-        <script src="js/jquery.film_roll.min.js"></script>
-            <!-- fontawesome CDN -->
-    <script src="https://kit.fontawesome.com/f90ace43a5.js" crossorigin="anonymous"></script>
-        <!-- Google Font Roboto -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
-
-<body>
+  <body>
     <div class="container-preview">
-        <div class="row preview-box1">
-            <div class="col-md-5">
-                <img class="xzoom"
-                    src="img/1.jpg"
-                    style="width: 100%; max-width: 400px;"
-                    xoriginal="img/1.jpg"
-                />
+      <div class="row preview-box1">
+        <div class="col-md-5">
+          <img
+            class="xzoom"
+            src="img/1.jpg"
+            style="width: 100%; max-width: 400px"
+            xoriginal="img/1.jpg"
+          />
 
-                <div class="xzoom-thumbs">
-                    <a href="img/1.jpg"><img class="xzoom-gallery" width="80" src="img/1.jpg" xpreview="img/1.jpg" /></a>
-                    <a href="img/2.png"><img class="xzoom-gallery" width="80" src="img/2.png" /></a>
-                    <a href="img/3.png"><img class="xzoom-gallery" width="80" src="img/3.png" /></a>
-                    <a href="img/4.jpg"><img class="xzoom-gallery" width="80" src="img/4.jpg" /></a>
-                </div>
-            </div>
+          <div class="xzoom-thumbs">
+            <a href="img/1.jpg"
+              ><img
+                class="xzoom-gallery"
+                width="80"
+                src="img/1.jpg"
+                xpreview="img/1.jpg"
+            /></a>
+            <a href="img/2.png"
+              ><img class="xzoom-gallery" width="80" src="img/2.png"
+            /></a>
+            <a href="img/3.png"
+              ><img class="xzoom-gallery" width="80" src="img/3.png"
+            /></a>
+            <a href="img/4.jpg"
+              ><img class="xzoom-gallery" width="80" src="img/4.jpg"
+            /></a>
+          </div>
         </div>
-        <div class="preview-box2">
-            <div class="preview-container">
-                <div>
+      </div>
+      <div class="preview-box2">
+        <div class="preview-container">
+          <div>
+            <ul class="breadcrumb">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Watch</a></li>
+              <li><a href="#">CASIO</a></li>
+            </ul>
 
-                    <ul class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Watch</a></li>
-                        <li><a href="#">CASIO</a></li>
-                      </ul>
-
-                    <h1> Best Casio analog watch for men MTP-V005D-2B5UDF in Maaz bangladesh</h1>
-                    <div class="price">
-                        <span class="currency-symbol">৳</span>
-                        <span class="amount">2,900.00</span>
-                    </div>
-                    
-                    <p>Casio Men’s Analog Watch MTP-V005D-2B5UDF Elevate your everyday style with the Casio MTP-V005D-2B5UDF analog watch for men, designed for both functionality and elegance. The watch features a classic design with a stainless steel band, offering durability and comfort for all-day wear. The mineral glass protects the dial, ensuring clarity and resistance to scratches, while the triple-fold clasp keeps the watch securely fastened.</p>
-                </div>
-
-                <div class="add-to-card-button">
-                    <div class="quantity">
-                        <input type="button" value="-" class="minus btn">
-                        <input type="number" id="quantity_6751405563f7b" class="input-text qty text wcmmq-qty-input-box" value="1" aria-label="Product quantity" min="1" max="" name="quantity" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-                        <input type="button" value="+" class="plus btn">
-                    </div>
-                    <button type="submit" name="add-to-cart" value="28738" class="single_add_to_cart_button button alt">Add to cart</button>
-                </div>
-                <div class="icon-box">
-                    <a href="#"><i class="text-white fa-solid fa-code-compare" aria-hidden="true"></i>Compare</a>
-                    <a href="#"><i class="text-white fa-solid fa-heart" aria-hidden="true"></i>Add to wishlist</a>
-                </div>
-                <hr id="hr1">
-                <h4>SKU: <span>MTP-V005D-2B5UDF </span></h4>
-                <h4>Categories: <span>CASIO, Men's watch, Men’s watch, Watch</span></h4>
-                <div class="Share">
-                    <h4>Share</h4>
-                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
-                </div>
+            <h1>
+              Best Casio analog watch for men MTP-V005D-2B5UDF in Maaz
+              bangladesh
+            </h1>
+            <div class="price">
+              <span class="currency-symbol">৳</span>
+              <span class="amount">2,900.00</span>
             </div>
+
+            <p>
+              Casio Men’s Analog Watch MTP-V005D-2B5UDF Elevate your everyday
+              style with the Casio MTP-V005D-2B5UDF analog watch for men,
+              designed for both functionality and elegance. The watch features a
+              classic design with a stainless steel band, offering durability
+              and comfort for all-day wear. The mineral glass protects the dial,
+              ensuring clarity and resistance to scratches, while the
+              triple-fold clasp keeps the watch securely fastened.
+            </p>
+          </div>
+
+          <div class="add-to-card-button">
+            <div class="quantity">
+              <input type="button" value="-" class="minus btn" />
+              <input
+                type="number"
+                id="quantity_6751405563f7b"
+                class="input-text qty text wcmmq-qty-input-box"
+                value="1"
+                aria-label="Product quantity"
+                min="1"
+                max=""
+                name="quantity"
+                step="1"
+                placeholder=""
+                inputmode="numeric"
+                autocomplete="off"
+              />
+              <input type="button" value="+" class="plus btn" />
+            </div>
+            <button
+              type="submit"
+              name="add-to-cart"
+              value="28738"
+              class="single_add_to_cart_button button alt"
+            >
+              Add to cart
+            </button>
+          </div>
+          <div class="icon-box">
+            <a href="#"
+              ><i
+                class="text-white fa-solid fa-code-compare"
+                aria-hidden="true"
+              ></i
+              >Compare</a
+            >
+            <a href="#"
+              ><i class="text-white fa-solid fa-heart" aria-hidden="true"></i
+              >Add to wishlist</a
+            >
+          </div>
+          <hr id="hr1" />
+          <h4>SKU: <span>MTP-V005D-2B5UDF </span></h4>
+          <h4>
+            Categories: <span>CASIO, Men's watch, Men’s watch, Watch</span>
+          </h4>
+          <div class="Share">
+            <h4>Share</h4>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+          </div>
         </div>
+      </div>
     </div>
     <!-- discription area -->
-    <hr id="hr2">
-        <div class="discription-area">
-                
-            <div class="tabs">
-                <div class="tab-buttons">
-                    <button class="tab-button active" onclick="openTab(event, 'tab1')">Description</button>
-                    <button class="tab-button" onclick="openTab(event, 'tab2')">Additional information </button>
-                </div>
-            
-                <div class="tab-content">
-                    <div id="tab1" class="tab-pane active">
-                        <h1>Best Brand Casio MTP-E340D-3AVDF Quartz Watch Product Specifications:</h1>
-                        <ul>
-                            <li>Case Size (L × W × H): 50.5 × 41.5 × 8.8 mm</li>
-                            <li>Weight: 105 g</li>
-                            <li>Case and Bezel Material: Stainless Steel</li>
-                            <li>Band Material: Stainless Steel</li>
-                            <li>Clasp Type: One-touch 3-fold Clasp for secure and easy fastening</li>
-                            <li>Water Resistance: 50 meters (5 ATM) – Suitable for swimming and light water activities</li>
-                            <li>Glass Type: Mineral Glass</li>
-                            <li>Compatible Band Size: 150 to 205 mm</li>
-                            <li>Accuracy: ±20 seconds per month</li>
-                            <li>Analog Display with 3 hands (hour, minute, second)</li>
-                        </ul>
-                        <h1>Warranty Period</h1>
-                        <ul>
-                            <li>Comes with a 3 Year’s of Machine Warranty.</li>
-                            <li>ONLINE SUPPORT 24/7</li>
-                        </ul>
-                        <img src="https://maaz.com.bd/wp-content/uploads/2024/11/security.webp" alt="">
-                        <h1>Best Brand Casio MTP-E340D-3AVDF Quartz Watch Product More Details</h1>
-                        <!-- table -->
-                        <table id="customers">
-                            <tr>
-                              <th>Company</th>
-                              <th>Contact</th>
-                              <th>Country</th>
-                            </tr>
-                            <tr>
-                              <td>Alfreds Futterkiste</td>
-                              <td>Maria Anders</td>
-                              <td>Germany</td>
-                            </tr>
-                            <tr>
-                              <td>Berglunds snabbköp</td>
-                              <td>Christina Berglund</td>
-                              <td>Sweden</td>
-                            </tr>
-                            <tr>
-                              <td>Centro comercial Moctezuma</td>
-                              <td>Francisco Chang</td>
-                              <td>Mexico</td>
-                            </tr>
-                            <tr>
-                              <td>Ernst Handel</td>
-                              <td>Roland Mendel</td>
-                              <td>Austria</td>
-                            </tr>
-                            <tr>
-                              <td>Island Trading</td>
-                              <td>Helen Bennett</td>
-                              <td>UK</td>
-                            </tr>
-                            <tr>
-                              <td>Königlich Essen</td>
-                              <td>Philip Cramer</td>
-                              <td>Germany</td>
-                            </tr>
-                            <tr>
-                              <td>Laughing Bacchus Winecellars</td>
-                              <td>Yoshi Tannamuri</td>
-                              <td>Canada</td>
-                            </tr>
-                            <tr>
-                              <td>Magazzini Alimentari Riuniti</td>
-                              <td>Giovanni Rovelli</td>
-                              <td>Italy</td>
-                            </tr>
-                            <tr>
-                              <td>North/South</td>
-                              <td>Simon Crowther</td>
-                              <td>UK</td>
-                            </tr>
-                            <tr>
-                              <td>Paris spécialités</td>
-                              <td>Marie Bertrand</td>
-                              <td>France</td>
-                            </tr>
-                          </table>
-                          <h1>Key Features:</h1>
-                          <ul>
-                            <li>Stainless Steel Case and Band: The watch features a durable, polished stainless steel case and band, offering both style and longevity.</li>
-                            <li>Quartz Movement: Powered by a reliable quartz movement, ensuring accurate timekeeping with minimal maintenance.</li>
-                            <li>Elegant Analog Dial: A clean, easy-to-read dial with luminous hour markers and hands for enhanced visibility in low light.</li>
-                            <li>Date Display: Equipped with a convenient date display at the 3 o’clock position, adding functionality to the design.</li>
-                            <li>Water Resistance: With 50 meters of water resistance (5 ATM), the watch can withstand splashes and brief immersion in water, making it ideal for everyday activities.</li>
-                            <li>Comfortable Fit: The stainless steel band is designed for a comfortable fit, offering a secure and stylish look.</li>
-                          </ul>
-                          <h1>Ideal For:</h1>
-                          <ul>
-                            <li>Everyday Wear: A great choice for daily activities and office wear, offering both style and functionality.</li>
-                            <li>Formal Occasions: Its classic and refined design makes it suitable for formal events or casual outings.</li>
-                            <li>Anyone Seeking Reliability: The precise quartz movement and sturdy construction make it a dependable accessory.</li>
-                          </ul>
-
-
-                          <hr>
-
-
-
-        
-
-
-                    </div>
-                    <div id="tab2" class="tab-pane">
-                        <h3>Content for Tab 2</h3>
-                        <p>This is some content for the second tab.</p>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-
-
+    <hr id="hr2" />
+    <div class="discription-area">
+      <div class="tabs">
+        <div class="tab-buttons">
+          <button class="tab-button active" onclick="openTab(event, 'tab1')">
+            Description
+          </button>
+          <button class="tab-button" onclick="openTab(event, 'tab2')">
+            Additional information
+          </button>
         </div>
 
-        
-        <!-- Product Easy & Responsive jQuery Carousel Slider -->
+        <div class="tab-content">
+          <div id="tab1" class="tab-pane active">
+            <h1>
+              Best Brand Casio MTP-E340D-3AVDF Quartz Watch Product
+              Specifications:
+            </h1>
+            <ul>
+              <li><span>Case Size</span> (L × W × H): 50.5 × 41.5 × 8.8 mm</li>
+              <li><span>Weight:</span> 105 g</li>
+              <li><span>Case and Bezel Material:</span> Stainless Steel</li>
+              <li><span>Band Material:</span> Stainless Steel</li>
+              <li>
+                <span>Clasp Type:</span> One-touch 3-fold Clasp for secure and
+                easy fastening
+              </li>
+              <li>
+                <span>Water Resistance:</span> 50 meters (5 ATM) – Suitable for
+                swimming and light water activities
+              </li>
+              <li><span>Glass Type:</span> Mineral Glass</li>
+              <li><span>Compatible Band Size</span>: 150 to 205 mm</li>
+              <li><span>Accuracy:</span> ±20 seconds per month</li>
+              <li>
+                <span>Timekeeping:</span>Analog Display with 3 hands (hour,
+                minute, second)
+              </li>
+            </ul>
+            <h1>Warranty Period</h1>
+            <ul>
+              <li>Comes with a 3 Year’s of Machine Warranty.</li>
+              <li>ONLINE SUPPORT 24/7</li>
+            </ul>
+            <img
+              src="https://maaz.com.bd/wp-content/uploads/2024/11/security.webp"
+              alt=""
+            />
+            <h1>
+              Best Brand Casio MTP-E340D-3AVDF Quartz Watch Product More Details
+            </h1>
+            <!-- table -->
+            <table id="customers">
+              <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Berglunds snabbköp</td>
+                <td>Christina Berglund</td>
+                <td>Sweden</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+              <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+              </tr>
+              <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+              </tr>
+              <tr>
+                <td>Königlich Essen</td>
+                <td>Philip Cramer</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+              </tr>
+              <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+              </tr>
+              <tr>
+                <td>North/South</td>
+                <td>Simon Crowther</td>
+                <td>UK</td>
+              </tr>
+              <tr>
+                <td>Paris spécialités</td>
+                <td>Marie Bertrand</td>
+                <td>France</td>
+              </tr>
+            </table>
+            <h1>Key Features:</h1>
+            <ul>
+              <li>
+                Stainless Steel Case and Band: The watch features a durable,
+                polished stainless steel case and band, offering both style and
+                longevity.
+              </li>
+              <li>
+                Quartz Movement: Powered by a reliable quartz movement, ensuring
+                accurate timekeeping with minimal maintenance.
+              </li>
+              <li>
+                Elegant Analog Dial: A clean, easy-to-read dial with luminous
+                hour markers and hands for enhanced visibility in low light.
+              </li>
+              <li>
+                Date Display: Equipped with a convenient date display at the 3
+                o’clock position, adding functionality to the design.
+              </li>
+              <li>
+                Water Resistance: With 50 meters of water resistance (5 ATM),
+                the watch can withstand splashes and brief immersion in water,
+                making it ideal for everyday activities.
+              </li>
+              <li>
+                Comfortable Fit: The stainless steel band is designed for a
+                comfortable fit, offering a secure and stylish look.
+              </li>
+            </ul>
+            <h1>Ideal For:</h1>
+            <ul>
+              <li>
+                Everyday Wear: A great choice for daily activities and office
+                wear, offering both style and functionality.
+              </li>
+              <li>
+                Formal Occasions: Its classic and refined design makes it
+                suitable for formal events or casual outings.
+              </li>
+              <li>
+                Anyone Seeking Reliability: The precise quartz movement and
+                sturdy construction make it a dependable accessory.
+              </li>
+            </ul>
 
-        
-        <div class="container-slider">
-            <div id='demo'>
-                <div><a href='#'><img src="img/1.jpg"></a></div>
-                <div><a href='#'><img src="img/2.png"></a></div>
-                <div><a href='#'><img src="img/3.png"></a></div>
-                <div><a href='#'><img src="img/4.jpg"></a></div>
-                <div><a href='#'><img src="img/1.jpg"></a></div>
-            </div>
+            <hr id="hr3" />
+          </div>
+          <div id="tab2" class="tab-pane">
+            <h3>Additional information:</h3>
+            <table>
+              <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+              <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+              </tr>
+              <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+              </tr>
+              <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+              </tr>
+              <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+              </tr>
+            </table>
+          </div>
         </div>
-        
+      </div>
+    </div>
 
+    <!-- Product Easy & Responsive jQuery Carousel Slider -->
 
-
-
-
-
-
-
-
-
-     
-
+    <div class="container-slider">
+      <h1>Related products</h1>
+      <div id="demo">
+        <div>
+          <a href="#"><img src="img/1.jpg" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="img/2.png" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="img/3.png" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="img/4.jpg" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="img/1.jpg" /></a>
+        </div>
+      </div>
+    </div>
 
     <script>
-        (function ($) {
-            $(document).ready(function () {
-                $(".xzoom, .xzoom-gallery").xzoom({
-                    zoomWidth: 400,
-                    title: true,
-                    tint: "#333",
-                    Xoffset: 15,
-                    fadeIn: true,
-                });
-            });
-        })(jQuery);
+      (function ($) {
+        $(document).ready(function () {
+          $(".xzoom, .xzoom-gallery").xzoom({
+            zoomWidth: 400,
+            title: true,
+            tint: "#333",
+            Xoffset: 15,
+            fadeIn: true,
+          });
+        });
+      })(jQuery);
 
-            // Product Button + -
-            document.addEventListener("DOMContentLoaded", function () {
-            const minusButton = document.querySelector('.minus');
-            const plusButton = document.querySelector('.plus');
-            const quantityInput = document.querySelector('.input-text');
+      // Product Button + -
+      document.addEventListener("DOMContentLoaded", function () {
+        const minusButton = document.querySelector(".minus");
+        const plusButton = document.querySelector(".plus");
+        const quantityInput = document.querySelector(".input-text");
 
-            // Decrease quantity
-            minusButton.addEventListener('click', function () {
-                let currentQuantity = parseInt(quantityInput.value);
-                if (currentQuantity > 1) {
-                    quantityInput.value = currentQuantity - 1;
-                }
-            });
+        // Decrease quantity
+        minusButton.addEventListener("click", function () {
+          let currentQuantity = parseInt(quantityInput.value);
+          if (currentQuantity > 1) {
+            quantityInput.value = currentQuantity - 1;
+          }
+        });
 
-            // Increase quantity
-            plusButton.addEventListener('click', function () {
-                    let currentQuantity = parseInt(quantityInput.value);
-                    quantityInput.value = currentQuantity + 1;
-                });
-            });
+        // Increase quantity
+        plusButton.addEventListener("click", function () {
+          let currentQuantity = parseInt(quantityInput.value);
+          quantityInput.value = currentQuantity + 1;
+        });
+      });
 
+      // Function to open a tab and show its content
+      function openTab(event, tabId) {
+        // Get all tab buttons and remove the active class
+        let tabButtons = document.querySelectorAll(".tab-button");
+        tabButtons.forEach((button) => {
+          button.classList.remove("active");
+        });
 
+        // Add active class to the clicked button
+        event.currentTarget.classList.add("active");
 
-// Function to open a tab and show its content
-function openTab(event, tabId) {
-    // Get all tab buttons and remove the active class
-    let tabButtons = document.querySelectorAll('.tab-button');
-    tabButtons.forEach(button => {
-        button.classList.remove('active');
-    });
+        // Get all tab content and hide them
+        let tabPanes = document.querySelectorAll(".tab-pane");
+        tabPanes.forEach((pane) => {
+          pane.classList.remove("active");
+        });
 
-    // Add active class to the clicked button
-    event.currentTarget.classList.add('active');
+        // Show the content of the clicked tab
+        document.getElementById(tabId).classList.add("active");
+      }
 
-    // Get all tab content and hide them
-    let tabPanes = document.querySelectorAll('.tab-pane');
-    tabPanes.forEach(pane => {
-        pane.classList.remove('active');
-    });
+      // Initialize the first tab as active by default
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector(".tab-button.active").click();
+      });
 
-    // Show the content of the clicked tab
-    document.getElementById(tabId).classList.add('active');
-}
-
-// Initialize the first tab as active by default
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector('.tab-button.active').click();
-});
-
-
-
-
-
-// Product Easy & Responsive jQuery Carousel Slider
-(function() {
-jQuery(function() {
-this.film_rolls || (this.film_rolls = []);
-this.film_rolls['demo'] = new FilmRoll({
-container: '#demo',
-height: 560
-});
-return true;
-});
-}).call(this);
-
-
-
-
-
-
+      // Product Easy & Responsive jQuery Carousel Slider
+      (function () {
+        jQuery(function () {
+          this.film_rolls || (this.film_rolls = []);
+          this.film_rolls["demo"] = new FilmRoll({
+            container: "#demo",
+            height: 560,
+          });
+          return true;
+        });
+      }).call(this);
     </script>
-</body>
-
+  </body>
 </html>
