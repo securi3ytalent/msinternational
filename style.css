@@ -144,8 +144,9 @@ li {
   display: flex;
   align-items: center;
 }
+
 .header-bottom-nav{
-  background-color: var(--black);
+  /* background-color: var(--black); */
   z-index: 999;
   height: 6rem;
   display: flex;
