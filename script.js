@@ -12,3 +12,14 @@ closeNav.addEventListener("click", () => {
 });
 
 
+// Footer section
+
+
+
+
+
+
+
+
+
+

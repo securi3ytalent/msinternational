@@ -37,6 +37,9 @@
   font-size: 17px !important;
 
 }
+.container-fluid{
+  overflow: hidden;
+}
 .container-fluid >p {
     margin: 0;
 }
@@ -146,7 +149,7 @@ li {
 }
 
 .header-bottom-nav{
-  /* background-color: var(--black); */
+  background-color: var(--black);
   z-index: 999;
   height: 6rem;
   display: flex;
@@ -802,9 +805,7 @@ button.btn.btn-hide {
 .card-body {
   padding-bottom: 0;
 }
-.card .text-muted {
 
-}
 .card-img img {
   padding-top: 10px;
   width: inherit;
@@ -1083,7 +1084,6 @@ input[type="range"]::-webkit-slider-thumb {
 @media (max-width: 1200px) {
   .container {
     padding: 0 3rem;
-    background-color: #FFFFFF;
   }
 }
 
@@ -1890,5 +1890,16 @@ img{
 
 
 
+/* footer section */
 
+
+.footer-section{
+  display: block;
+
+}
+.footer-section::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 
