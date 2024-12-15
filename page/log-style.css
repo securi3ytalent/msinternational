@@ -14,9 +14,17 @@ body {
     display: flex;
      height: 900px;
      width: 100%;
-     background: linear-gradient(150deg, #000000, #000000, #000c18, #005683, #007dbc, #0083c4);     box-shadow: -4px -4px 52px -7px rgba(255,255,255,0.71);
-        -webkit-box-shadow: -4px -4px 52px -7px rgba(255,255,255,0.71);
-        -moz-box-shadow: -4px -4px 52px -7px rgba(255,255,255,0.71);
+	
+	 background: hsla(210, 100%, 19%, 1);
+
+background: linear-gradient(135deg, hsla(210, 100%, 19%, 1) 0%, hsla(0, 0%, 0%, 1) 46%);
+
+background: -moz-linear-gradient(135deg, hsla(210, 100%, 19%, 1) 0%, hsla(0, 0%, 0%, 1) 46%);
+
+background: -webkit-linear-gradient(135deg, hsla(210, 100%, 19%, 1) 0%, hsla(0, 0%, 0%, 1) 46%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#003161", endColorstr="#000000", GradientType=1 );
+
     border-radius: 15px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,6 +195,7 @@ a{color:inherit;text-decoration:none}
 	position:relative;
 	perspective:1000px;
 	transform-style:preserve-3d;
+	margin-top: 40px;
 }
 .login-form .group{
 	margin-bottom:15px;
@@ -202,19 +211,28 @@ a{color:inherit;text-decoration:none}
 .login-form .group .button{
 	border:none;
 	padding:15px 20px;
-	border-radius:25px;
+	border-radius:5px;
 	background:rgba(255,255,255,.1);
+	color: #FFF;
+	font-size: 18px;
+}
+
+.login-form .group .input,
+.login-form .group .button:focus{
+	outline:none;
 }
 .login-form .group input[data-type="password"]{
 	text-security:circle;
 	-webkit-text-security:circle;
 }
 .login-form .group .label{
-	color:#aaa;
-	font-size:12px;
+	color:#fff;
+	font-size:15px;
+	opacity: 0.7;
 }
 .login-form .group .button{
 	background: #FFFF;
+	color: #000;
 }
 .login-form .group label .icon{
 	width:15px;
